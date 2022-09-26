@@ -2,7 +2,6 @@
 
   section .row{
     flex-direction: column;
-    align-items: center;
   }
 
   section.lessons .col,
@@ -16,10 +15,6 @@
   section.lessons .col:last-child,
   section.steps .col:last-child{
     margin-bottom: 0px;
-  }
-
-  section .lessons .col img{
-    height: 100%;
   }
 
 }
